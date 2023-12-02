@@ -68,7 +68,7 @@ const Navbar = () => {
                 <Link
                   href={link.href}
                   className={`regular-16 text-gray-50 flexCenter cursor-pointer pb-1.5 transition-all hover:font-bold ${
-                    isMenuOpen ? 'text-4xl font-bold' : 'text'
+                    isMenuOpen ? 'text-4xl font-bold' : 'regular-14'
                   }`}
                 >
                   {link.label}
