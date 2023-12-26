@@ -4,6 +4,11 @@ import Image from "next/image"
 import Link from "next/link"
 import Button from "./Button"
 import { useState } from 'react';
+import GetApp from "./GetApp"
+import Hero from "./Hero"
+import Camp from "./Camp"
+import Features from "./Features"
+import Guide from "./Guide"
 
 const Navbar = () => {
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -33,7 +38,7 @@ const Navbar = () => {
         <div className="lg:flexCenter hidden md:block">
           <Button
             type="button"
-            title=""
+            title="Log in"
             icon="/user.svg"
             variant="btn_dark_green"
           />
